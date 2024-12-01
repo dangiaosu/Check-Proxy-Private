@@ -1,6 +1,6 @@
-# Proxy Private Checker - Đan Giáo Sư
+# Private Proxy Checker - Đan Giáo Sư
 
-Proxy Checker là công cụ mạnh mẽ được viết bằng Python, giúp kiểm tra trạng thái proxy, lấy thông tin IP public, và xuất kết quả ra file Excel. Công cụ này được tối ưu hóa để hoạt động nhanh chóng và dễ dàng cho cả người mới bắt đầu.
+Private Proxy Checker là công cụ mạnh mẽ được viết bằng Python, giúp kiểm tra trạng thái proxy, lấy thông tin IP public, và xuất kết quả ra file Excel. Công cụ này được tối ưu hóa để hoạt động nhanh chóng và dễ dàng cho cả người không biết gì về code.
 
 ---
 

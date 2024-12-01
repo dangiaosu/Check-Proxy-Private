@@ -42,7 +42,7 @@ async def get_public_ip(proxy, semaphore):
     proxy_url = f"http://{proxy['proxy_url']}"
     async with semaphore:
         try:
-            timeout = aiohttp.ClientTimeout(total=5)
+            timeout = aiohttp.ClientTimeout(total=20)
             auth = BasicAuth(proxy['username'], proxy['password'])
             async with aiohttp.ClientSession(timeout=timeout) as session:
                 async with session.get('http://api64.ipify.org?format=json', proxy=proxy_url, proxy_auth=auth) as response:
